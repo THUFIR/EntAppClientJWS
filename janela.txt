@@ -1,0 +1,927 @@
+JaNeLA Report - version 11.05.17
+
+
+Report for file:/home/thufir/EntAppClientJWS/EntAppClient.jnlp
+
+Content type application/xml does not equal expected type of application/x-java-jnlp-file
+XML encoding not known, but declared as UTF-8
+Codebase + href 'http://dur:8080/___JWSappclient/___app/___dyn/EntAppClient.jarClient/___main.jnlp' is not equal to actual location of 'file:/home/thufir/EntAppClientJWS/EntAppClient.jnlp'.
+Downloads can be optimized by specifying a resource size for 'EntAppEJBClient/EntAppClientClient.jar'.
+The resource download at EntAppEJBClient/EntAppClientClient.jar can be optimized by removing the (default) value of download='eager'.
+Lazy downloads might not work as expected for EntAppEJBClient/EntAppClientClient.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 'EntAppEJBClient.jar'.
+The resource download at EntAppEJBClient.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at EntAppEJBClient.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the EntAppEJBClient.jar resource.
+Lazy downloads might not work as expected for EntAppEJBClient.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 'http://dur:8080/___JWSappclient/___system/s1as/glassfish/lib/gf-client.jar'.
+The resource download at http://dur:8080/___JWSappclient/___system/s1as/glassfish/lib/gf-client.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at http://dur:8080/___JWSappclient/___system/s1as/glassfish/lib/gf-client.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the http://dur:8080/___JWSappclient/___system/s1as/glassfish/lib/gf-client.jar resource.
+Lazy downloads might not work as expected for http://dur:8080/___JWSappclient/___system/s1as/glassfish/lib/gf-client.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 'http://dur:8080/___JWSappclient/___system/s1as/glassfish/modules/gf-client-module.jar'.
+The resource download at http://dur:8080/___JWSappclient/___system/s1as/glassfish/modules/gf-client-module.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at http://dur:8080/___JWSappclient/___system/s1as/glassfish/modules/gf-client-module.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the http://dur:8080/___JWSappclient/___system/s1as/glassfish/modules/gf-client-module.jar resource.
+Lazy downloads might not work as expected for http://dur:8080/___JWSappclient/___system/s1as/glassfish/modules/gf-client-module.jar unless the download 'part' is specified. 
+Illegal character in path at index 40: http://dur:8080/___JWSappclient/___app/${appclient.information.homepage.filepath}
+Report for http://dur:8080/___JWSappclient/___app/___dyn/EntAppClient.jarClient/___client.jnlp
+
+Content type text/html does not equal expected type of application/x-java-jnlp-file
+Problem fetching resource http://dur:8080/___JWSappclient/___app/___dyn/EntAppClient.jarClient/___client.jnlp.  http://dur:8080/___JWSappclient/___app/___dyn/EntAppClient.jarClient/___client.jnlp
+Report for http://dur:8080/___JWSappclient/___app/___lib/client-libs-s1as.jnlp
+
+Content type text/html does not equal expected type of application/x-java-jnlp-file
+Problem fetching resource http://dur:8080/___JWSappclient/___app/___lib/client-libs-s1as.jnlp.  http://dur:8080/___JWSappclient/___app/___lib/client-libs-s1as.jnlp
+Report for http://dur:8080/___JWSappclient/___system/___dyn/___system_s1as.jnlp
+
+Content type jnlp does not equal expected type of application/x-java-jnlp-file
+XML encoding not known, but declared as UTF-8
+Codebase + href 'http://dur:8080/___JWSappclient/___dyn/___system.jnlp' is not equal to actual location of 'http://dur:8080/___JWSappclient/___system/___dyn/___system_s1as.jnlp'.
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/gf-client-module.jar'.
+The resource download at s1as/glassfish/modules/gf-client-module.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/gf-client-module.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/gf-client-module.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/gf-client-module.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/core.jar'.
+The resource download at s1as/glassfish/modules/core.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/core.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/core.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/core.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/hk2-locator.jar'.
+The resource download at s1as/glassfish/modules/hk2-locator.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/hk2-locator.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/hk2-locator.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/hk2-locator.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javax.inject.jar'.
+The resource download at s1as/glassfish/modules/javax.inject.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javax.inject.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javax.inject.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javax.inject.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/aopalliance-repackaged.jar'.
+The resource download at s1as/glassfish/modules/aopalliance-repackaged.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/aopalliance-repackaged.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/aopalliance-repackaged.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/aopalliance-repackaged.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/hk2-api.jar'.
+The resource download at s1as/glassfish/modules/hk2-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/hk2-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/hk2-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/hk2-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javassist.jar'.
+The resource download at s1as/glassfish/modules/javassist.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javassist.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javassist.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javassist.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/hk2-utils.jar'.
+The resource download at s1as/glassfish/modules/hk2-utils.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/hk2-utils.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/hk2-utils.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/hk2-utils.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/common-util.jar'.
+The resource download at s1as/glassfish/modules/common-util.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/common-util.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/common-util.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/common-util.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/ejb-full-container.jar'.
+The resource download at s1as/glassfish/modules/ejb-full-container.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/ejb-full-container.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/ejb-full-container.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/ejb-full-container.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/ejb-container.jar'.
+The resource download at s1as/glassfish/modules/ejb-container.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/ejb-container.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/ejb-container.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/ejb-container.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/stats77.jar'.
+The resource download at s1as/glassfish/modules/stats77.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/stats77.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/stats77.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/stats77.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/asm-all.jar'.
+The resource download at s1as/glassfish/modules/asm-all.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/asm-all.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/asm-all.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/asm-all.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/container-common.jar'.
+The resource download at s1as/glassfish/modules/container-common.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/container-common.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/container-common.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/container-common.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javax.servlet-api.jar'.
+The resource download at s1as/glassfish/modules/javax.servlet-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javax.servlet-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javax.servlet-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javax.servlet-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/internal-api.jar'.
+The resource download at s1as/glassfish/modules/internal-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/internal-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/internal-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/internal-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/config-api.jar'.
+The resource download at s1as/glassfish/modules/config-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/config-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/config-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/config-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/admin-util.jar'.
+The resource download at s1as/glassfish/modules/admin-util.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/admin-util.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/admin-util.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/admin-util.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/security-services.jar'.
+The resource download at s1as/glassfish/modules/security-services.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/security-services.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/security-services.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/security-services.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/jackson-jaxrs-base.jar'.
+The resource download at s1as/glassfish/modules/jackson-jaxrs-base.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/jackson-jaxrs-base.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/jackson-jaxrs-base.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/jackson-jaxrs-base.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/jackson-core.jar'.
+The resource download at s1as/glassfish/modules/jackson-core.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/jackson-core.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/jackson-core.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/jackson-core.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/jackson-databind.jar'.
+The resource download at s1as/glassfish/modules/jackson-databind.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/jackson-databind.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/jackson-databind.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/jackson-databind.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/jackson-annotations.jar'.
+The resource download at s1as/glassfish/modules/jackson-annotations.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/jackson-annotations.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/jackson-annotations.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/jackson-annotations.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javax.mail.jar'.
+The resource download at s1as/glassfish/modules/javax.mail.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javax.mail.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javax.mail.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javax.mail.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/security.jar'.
+The resource download at s1as/glassfish/modules/security.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/security.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/security.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/security.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/ssl-impl.jar'.
+The resource download at s1as/glassfish/modules/ssl-impl.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/ssl-impl.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/ssl-impl.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/ssl-impl.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/ldapbp-repackaged.jar'.
+The resource download at s1as/glassfish/modules/ldapbp-repackaged.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/ldapbp-repackaged.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/ldapbp-repackaged.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/ldapbp-repackaged.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/connectors-internal-api.jar'.
+The resource download at s1as/glassfish/modules/connectors-internal-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/connectors-internal-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/connectors-internal-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/connectors-internal-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/ha-api.jar'.
+The resource download at s1as/glassfish/modules/ha-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/ha-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/ha-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/ha-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/dol.jar'.
+The resource download at s1as/glassfish/modules/dol.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/dol.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/dol.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/dol.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javax.transaction-api.jar'.
+The resource download at s1as/glassfish/modules/javax.transaction-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javax.transaction-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javax.transaction-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javax.transaction-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javax.enterprise.deploy-api.jar'.
+The resource download at s1as/glassfish/modules/javax.enterprise.deploy-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javax.enterprise.deploy-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javax.enterprise.deploy-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javax.enterprise.deploy-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javax.persistence.jar'.
+The resource download at s1as/glassfish/modules/javax.persistence.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javax.persistence.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javax.persistence.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javax.persistence.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javax.resource-api.jar'.
+The resource download at s1as/glassfish/modules/javax.resource-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javax.resource-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javax.resource-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javax.resource-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javax.ejb-api.jar'.
+The resource download at s1as/glassfish/modules/javax.ejb-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javax.ejb-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javax.ejb-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javax.ejb-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/deployment-common.jar'.
+The resource download at s1as/glassfish/modules/deployment-common.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/deployment-common.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/deployment-common.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/deployment-common.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/annotation-framework.jar'.
+The resource download at s1as/glassfish/modules/annotation-framework.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/annotation-framework.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/annotation-framework.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/annotation-framework.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/appclient.security.jar'.
+The resource download at s1as/glassfish/modules/appclient.security.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/appclient.security.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/appclient.security.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/appclient.security.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/security-ee.jar'.
+The resource download at s1as/glassfish/modules/security-ee.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/security-ee.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/security-ee.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/security-ee.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/glassfish-ee-api.jar'.
+The resource download at s1as/glassfish/modules/glassfish-ee-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/glassfish-ee-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/glassfish-ee-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/glassfish-ee-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javax.security.jacc-api.jar'.
+The resource download at s1as/glassfish/modules/javax.security.jacc-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javax.security.jacc-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javax.security.jacc-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javax.security.jacc-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/jaspic.provider.framework.jar'.
+The resource download at s1as/glassfish/modules/jaspic.provider.framework.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/jaspic.provider.framework.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/jaspic.provider.framework.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/jaspic.provider.framework.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/libpam4j-repackaged.jar'.
+The resource download at s1as/glassfish/modules/libpam4j-repackaged.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/libpam4j-repackaged.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/libpam4j-repackaged.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/libpam4j-repackaged.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/ejb.security.jar'.
+The resource download at s1as/glassfish/modules/ejb.security.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/ejb.security.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/ejb.security.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/ejb.security.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/glassfish-api.jar'.
+The resource download at s1as/glassfish/modules/glassfish-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/glassfish-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/glassfish-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/glassfish-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/scattered-archive-api.jar'.
+The resource download at s1as/glassfish/modules/scattered-archive-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/scattered-archive-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/scattered-archive-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/scattered-archive-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/hk2.jar'.
+The resource download at s1as/glassfish/modules/hk2.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/hk2.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/hk2.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/hk2.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/config-types.jar'.
+The resource download at s1as/glassfish/modules/config-types.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/config-types.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/config-types.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/config-types.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/hk2-config.jar'.
+The resource download at s1as/glassfish/modules/hk2-config.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/hk2-config.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/hk2-config.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/hk2-config.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/bean-validator.jar'.
+The resource download at s1as/glassfish/modules/bean-validator.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/bean-validator.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/bean-validator.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/bean-validator.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/hk2-runlevel.jar'.
+The resource download at s1as/glassfish/modules/hk2-runlevel.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/hk2-runlevel.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/hk2-runlevel.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/hk2-runlevel.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/class-model.jar'.
+The resource download at s1as/glassfish/modules/class-model.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/class-model.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/class-model.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/class-model.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/asm-all-repackaged.jar'.
+The resource download at s1as/glassfish/modules/asm-all-repackaged.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/asm-all-repackaged.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/asm-all-repackaged.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/asm-all-repackaged.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/nucleus-grizzly-all.jar'.
+The resource download at s1as/glassfish/modules/nucleus-grizzly-all.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/nucleus-grizzly-all.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/nucleus-grizzly-all.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/nucleus-grizzly-all.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/management-api.jar'.
+The resource download at s1as/glassfish/modules/management-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/management-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/management-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/management-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/webservices.security.jar'.
+The resource download at s1as/glassfish/modules/webservices.security.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/webservices.security.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/webservices.security.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/webservices.security.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/kernel.jar'.
+The resource download at s1as/glassfish/modules/kernel.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/kernel.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/kernel.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/kernel.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/flashlight-framework.jar'.
+The resource download at s1as/glassfish/modules/flashlight-framework.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/flashlight-framework.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/flashlight-framework.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/flashlight-framework.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/logging.jar'.
+The resource download at s1as/glassfish/modules/logging.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/logging.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/logging.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/logging.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/api-exporter.jar'.
+The resource download at s1as/glassfish/modules/api-exporter.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/api-exporter.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/api-exporter.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/api-exporter.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/web-glue.jar'.
+The resource download at s1as/glassfish/modules/web-glue.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/web-glue.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/web-glue.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/web-glue.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/web-cli.jar'.
+The resource download at s1as/glassfish/modules/web-cli.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/web-cli.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/web-cli.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/web-cli.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/amx-javaee.jar'.
+The resource download at s1as/glassfish/modules/amx-javaee.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/amx-javaee.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/amx-javaee.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/amx-javaee.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javax.management.j2ee-api.jar'.
+The resource download at s1as/glassfish/modules/javax.management.j2ee-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javax.management.j2ee-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javax.management.j2ee-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javax.management.j2ee-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/amx-core.jar'.
+The resource download at s1as/glassfish/modules/amx-core.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/amx-core.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/amx-core.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/amx-core.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/war-util.jar'.
+The resource download at s1as/glassfish/modules/war-util.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/war-util.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/war-util.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/war-util.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javax.servlet.jsp-api.jar'.
+The resource download at s1as/glassfish/modules/javax.servlet.jsp-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javax.servlet.jsp-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javax.servlet.jsp-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javax.servlet.jsp-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/web-naming.jar'.
+The resource download at s1as/glassfish/modules/web-naming.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/web-naming.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/web-naming.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/web-naming.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/web-core.jar'.
+The resource download at s1as/glassfish/modules/web-core.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/web-core.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/web-core.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/web-core.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javax.servlet.jsp.jar'.
+The resource download at s1as/glassfish/modules/javax.servlet.jsp.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javax.servlet.jsp.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javax.servlet.jsp.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javax.servlet.jsp.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javax.el.jar'.
+The resource download at s1as/glassfish/modules/javax.el.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javax.el.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javax.el.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javax.el.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/admin-core.jar'.
+The resource download at s1as/glassfish/modules/admin-core.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/admin-core.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/admin-core.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/admin-core.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/web-gui-plugin-common.jar'.
+The resource download at s1as/glassfish/modules/web-gui-plugin-common.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/web-gui-plugin-common.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/web-gui-plugin-common.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/web-gui-plugin-common.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/web-embed-api.jar'.
+The resource download at s1as/glassfish/modules/web-embed-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/web-embed-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/web-embed-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/web-embed-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/gf-web-connector.jar'.
+The resource download at s1as/glassfish/modules/gf-web-connector.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/gf-web-connector.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/gf-web-connector.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/gf-web-connector.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/web-sse.jar'.
+The resource download at s1as/glassfish/modules/web-sse.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/web-sse.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/web-sse.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/web-sse.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/webservices-osgi.jar'.
+The resource download at s1as/glassfish/modules/webservices-osgi.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/webservices-osgi.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/webservices-osgi.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/webservices-osgi.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javax.xml.rpc-api.jar'.
+The resource download at s1as/glassfish/modules/javax.xml.rpc-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javax.xml.rpc-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javax.xml.rpc-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javax.xml.rpc-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/webservices-extra-jdk-packages.jar'.
+The resource download at s1as/glassfish/modules/webservices-extra-jdk-packages.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/webservices-extra-jdk-packages.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/webservices-extra-jdk-packages.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/webservices-extra-jdk-packages.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/woodstox-core-asl.jar'.
+The resource download at s1as/glassfish/modules/woodstox-core-asl.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/woodstox-core-asl.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/woodstox-core-asl.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/woodstox-core-asl.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/stax2-api.jar'.
+The resource download at s1as/glassfish/modules/stax2-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/stax2-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/stax2-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/stax2-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/mimepull.jar'.
+The resource download at s1as/glassfish/modules/mimepull.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/mimepull.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/mimepull.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/mimepull.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/websecurity.jar'.
+The resource download at s1as/glassfish/modules/websecurity.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/websecurity.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/websecurity.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/websecurity.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/jsr109-impl.jar'.
+The resource download at s1as/glassfish/modules/jsr109-impl.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/jsr109-impl.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/jsr109-impl.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/jsr109-impl.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/glassfish-naming.jar'.
+The resource download at s1as/glassfish/modules/glassfish-naming.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/glassfish-naming.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/glassfish-naming.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/glassfish-naming.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/work-management.jar'.
+The resource download at s1as/glassfish/modules/work-management.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/work-management.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/work-management.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/work-management.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/transaction-internal-api.jar'.
+The resource download at s1as/glassfish/modules/transaction-internal-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/transaction-internal-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/transaction-internal-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/transaction-internal-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/gmbal.jar'.
+The resource download at s1as/glassfish/modules/gmbal.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/gmbal.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/gmbal.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/gmbal.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/pfl-tf.jar'.
+The resource download at s1as/glassfish/modules/pfl-tf.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/pfl-tf.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/pfl-tf.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/pfl-tf.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/pfl-basic-tools.jar'.
+The resource download at s1as/glassfish/modules/pfl-basic-tools.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/pfl-basic-tools.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/pfl-basic-tools.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/pfl-basic-tools.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/pfl-tf-tools.jar'.
+The resource download at s1as/glassfish/modules/pfl-tf-tools.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/pfl-tf-tools.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/pfl-tf-tools.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/pfl-tf-tools.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javax.security.auth.message-api.jar'.
+The resource download at s1as/glassfish/modules/javax.security.auth.message-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javax.security.auth.message-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javax.security.auth.message-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javax.security.auth.message-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/connectors-inbound-runtime.jar'.
+The resource download at s1as/glassfish/modules/connectors-inbound-runtime.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/connectors-inbound-runtime.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/connectors-inbound-runtime.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/connectors-inbound-runtime.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/connectors-runtime.jar'.
+The resource download at s1as/glassfish/modules/connectors-runtime.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/connectors-runtime.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/connectors-runtime.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/connectors-runtime.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/gf-connectors-connector.jar'.
+The resource download at s1as/glassfish/modules/gf-connectors-connector.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/gf-connectors-connector.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/gf-connectors-connector.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/gf-connectors-connector.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/ejb-internal-api.jar'.
+The resource download at s1as/glassfish/modules/ejb-internal-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/ejb-internal-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/ejb-internal-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/ejb-internal-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/orb-connector.jar'.
+The resource download at s1as/glassfish/modules/orb-connector.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/orb-connector.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/orb-connector.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/orb-connector.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/orb-enabler.jar'.
+The resource download at s1as/glassfish/modules/orb-enabler.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/orb-enabler.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/orb-enabler.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/orb-enabler.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/pfl-basic.jar'.
+The resource download at s1as/glassfish/modules/pfl-basic.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/pfl-basic.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/pfl-basic.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/pfl-basic.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/glassfish-corba-omgapi.jar'.
+The resource download at s1as/glassfish/modules/glassfish-corba-omgapi.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/glassfish-corba-omgapi.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/glassfish-corba-omgapi.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/glassfish-corba-omgapi.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/glassfish-corba-internal-api.jar'.
+The resource download at s1as/glassfish/modules/glassfish-corba-internal-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/glassfish-corba-internal-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/glassfish-corba-internal-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/glassfish-corba-internal-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/monitoring-core.jar'.
+The resource download at s1as/glassfish/modules/monitoring-core.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/monitoring-core.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/monitoring-core.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/monitoring-core.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/webservices-connector.jar'.
+The resource download at s1as/glassfish/modules/webservices-connector.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/webservices-connector.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/webservices-connector.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/webservices-connector.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/glassfish-corba-orb.jar'.
+The resource download at s1as/glassfish/modules/glassfish-corba-orb.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/glassfish-corba-orb.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/glassfish-corba-orb.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/glassfish-corba-orb.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/glassfish-corba-csiv2-idl.jar'.
+The resource download at s1as/glassfish/modules/glassfish-corba-csiv2-idl.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/glassfish-corba-csiv2-idl.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/glassfish-corba-csiv2-idl.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/glassfish-corba-csiv2-idl.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/pfl-dynamic.jar'.
+The resource download at s1as/glassfish/modules/pfl-dynamic.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/pfl-dynamic.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/pfl-dynamic.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/pfl-dynamic.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/orb-iiop.jar'.
+The resource download at s1as/glassfish/modules/orb-iiop.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/orb-iiop.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/orb-iiop.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/orb-iiop.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/gms-bootstrap.jar'.
+The resource download at s1as/glassfish/modules/gms-bootstrap.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/gms-bootstrap.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/gms-bootstrap.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/gms-bootstrap.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/shoal-gms-api.jar'.
+The resource download at s1as/glassfish/modules/shoal-gms-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/shoal-gms-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/shoal-gms-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/shoal-gms-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/pfl-asm.jar'.
+The resource download at s1as/glassfish/modules/pfl-asm.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/pfl-asm.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/pfl-asm.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/pfl-asm.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/glassfish.jar'.
+The resource download at s1as/glassfish/modules/glassfish.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/glassfish.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/glassfish.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/glassfish.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/simple-glassfish-api.jar'.
+The resource download at s1as/glassfish/modules/simple-glassfish-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/simple-glassfish-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/simple-glassfish-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/simple-glassfish-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/acc-config.jar'.
+The resource download at s1as/glassfish/modules/acc-config.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/acc-config.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/acc-config.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/acc-config.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/jts.jar'.
+The resource download at s1as/glassfish/modules/jts.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/jts.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/jts.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/jts.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/jta.jar'.
+The resource download at s1as/glassfish/modules/jta.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/jta.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/jta.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/jta.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/jms-core.jar'.
+The resource download at s1as/glassfish/modules/jms-core.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/jms-core.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/jms-core.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/jms-core.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/gf-jms-connector.jar'.
+The resource download at s1as/glassfish/modules/gf-jms-connector.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/gf-jms-connector.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/gf-jms-connector.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/gf-jms-connector.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/glassfish-mbeanserver.jar'.
+The resource download at s1as/glassfish/modules/glassfish-mbeanserver.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/glassfish-mbeanserver.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/glassfish-mbeanserver.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/glassfish-mbeanserver.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/jmxremote_optional-repackaged.jar'.
+The resource download at s1as/glassfish/modules/jmxremote_optional-repackaged.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/jmxremote_optional-repackaged.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/jmxremote_optional-repackaged.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/jmxremote_optional-repackaged.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/gf-ejb-connector.jar'.
+The resource download at s1as/glassfish/modules/gf-ejb-connector.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/gf-ejb-connector.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/gf-ejb-connector.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/gf-ejb-connector.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javax.jms-api.jar'.
+The resource download at s1as/glassfish/modules/javax.jms-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javax.jms-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javax.jms-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javax.jms-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/org.eclipse.persistence.core.jar'.
+The resource download at s1as/glassfish/modules/org.eclipse.persistence.core.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/org.eclipse.persistence.core.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/org.eclipse.persistence.core.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/org.eclipse.persistence.core.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/org.eclipse.persistence.jpa.jar'.
+The resource download at s1as/glassfish/modules/org.eclipse.persistence.jpa.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/org.eclipse.persistence.jpa.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/org.eclipse.persistence.jpa.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/org.eclipse.persistence.jpa.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/org.eclipse.persistence.jpa.jpql.jar'.
+The resource download at s1as/glassfish/modules/org.eclipse.persistence.jpa.jpql.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/org.eclipse.persistence.jpa.jpql.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/org.eclipse.persistence.jpa.jpql.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/org.eclipse.persistence.jpa.jpql.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/org.eclipse.persistence.jpa.modelgen.processor.jar'.
+The resource download at s1as/glassfish/modules/org.eclipse.persistence.jpa.modelgen.processor.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/org.eclipse.persistence.jpa.modelgen.processor.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/org.eclipse.persistence.jpa.modelgen.processor.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/org.eclipse.persistence.jpa.modelgen.processor.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/org.eclipse.persistence.moxy.jar'.
+The resource download at s1as/glassfish/modules/org.eclipse.persistence.moxy.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/org.eclipse.persistence.moxy.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/org.eclipse.persistence.moxy.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/org.eclipse.persistence.moxy.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/org.eclipse.persistence.dbws.jar'.
+The resource download at s1as/glassfish/modules/org.eclipse.persistence.dbws.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/org.eclipse.persistence.dbws.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/org.eclipse.persistence.dbws.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/org.eclipse.persistence.dbws.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/org.eclipse.persistence.oracle.jar'.
+The resource download at s1as/glassfish/modules/org.eclipse.persistence.oracle.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/org.eclipse.persistence.oracle.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/org.eclipse.persistence.oracle.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/org.eclipse.persistence.oracle.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/org.eclipse.persistence.antlr.jar'.
+The resource download at s1as/glassfish/modules/org.eclipse.persistence.antlr.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/org.eclipse.persistence.antlr.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/org.eclipse.persistence.antlr.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/org.eclipse.persistence.antlr.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/org.eclipse.persistence.asm.jar'.
+The resource download at s1as/glassfish/modules/org.eclipse.persistence.asm.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/org.eclipse.persistence.asm.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/org.eclipse.persistence.asm.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/org.eclipse.persistence.asm.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/jpa-container.jar'.
+The resource download at s1as/glassfish/modules/jpa-container.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/jpa-container.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/jpa-container.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/jpa-container.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/persistence-common.jar'.
+The resource download at s1as/glassfish/modules/persistence-common.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/persistence-common.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/persistence-common.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/persistence-common.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/deployment-javaee-core.jar'.
+The resource download at s1as/glassfish/modules/deployment-javaee-core.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/deployment-javaee-core.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/deployment-javaee-core.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/deployment-javaee-core.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/cmp-internal-api.jar'.
+The resource download at s1as/glassfish/modules/cmp-internal-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/cmp-internal-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/cmp-internal-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/cmp-internal-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/endorsed/javax.annotation-api.jar'.
+The resource download at s1as/glassfish/modules/endorsed/javax.annotation-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/endorsed/javax.annotation-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/endorsed/javax.annotation-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/endorsed/javax.annotation-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/endorsed/jaxb-api.jar'.
+The resource download at s1as/glassfish/modules/endorsed/jaxb-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/endorsed/jaxb-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/endorsed/jaxb-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/endorsed/jaxb-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/jaxb-osgi.jar'.
+The resource download at s1as/glassfish/modules/jaxb-osgi.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/jaxb-osgi.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/jaxb-osgi.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/jaxb-osgi.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/jaxb-extra-osgi.jar'.
+The resource download at s1as/glassfish/modules/jaxb-extra-osgi.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/jaxb-extra-osgi.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/jaxb-extra-osgi.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/jaxb-extra-osgi.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/endorsed/webservices-api-osgi.jar'.
+The resource download at s1as/glassfish/modules/endorsed/webservices-api-osgi.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/endorsed/webservices-api-osgi.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/endorsed/webservices-api-osgi.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/endorsed/webservices-api-osgi.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javax.xml.registry-api.jar'.
+The resource download at s1as/glassfish/modules/javax.xml.registry-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javax.xml.registry-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javax.xml.registry-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javax.xml.registry-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/appclient-connector.jar'.
+The resource download at s1as/glassfish/modules/appclient-connector.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/appclient-connector.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/appclient-connector.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/appclient-connector.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javamail-connector.jar'.
+The resource download at s1as/glassfish/modules/javamail-connector.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javamail-connector.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javamail-connector.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javamail-connector.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/resources-connector.jar'.
+The resource download at s1as/glassfish/modules/resources-connector.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/resources-connector.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/resources-connector.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/resources-connector.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/nucleus-resources.jar'.
+The resource download at s1as/glassfish/modules/nucleus-resources.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/nucleus-resources.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/nucleus-resources.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/nucleus-resources.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javamail-runtime.jar'.
+The resource download at s1as/glassfish/modules/javamail-runtime.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javamail-runtime.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javamail-runtime.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javamail-runtime.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javax.interceptor-api.jar'.
+The resource download at s1as/glassfish/modules/javax.interceptor-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javax.interceptor-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javax.interceptor-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javax.interceptor-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javax.json.jar'.
+The resource download at s1as/glassfish/modules/javax.json.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javax.json.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javax.json.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javax.json.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/lib/appclient/weld-se-core.jar'.
+The resource download at s1as/glassfish/lib/appclient/weld-se-core.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/lib/appclient/weld-se-core.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/lib/appclient/weld-se-core.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/lib/appclient/weld-se-core.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/jboss-logging.jar'.
+The resource download at s1as/glassfish/modules/jboss-logging.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/jboss-logging.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/jboss-logging.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/jboss-logging.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/guava.jar'.
+The resource download at s1as/glassfish/modules/guava.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/guava.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/guava.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/guava.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/cdi-api.jar'.
+The resource download at s1as/glassfish/modules/cdi-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/cdi-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/cdi-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/cdi-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javax.inject.jar'.
+The resource download at s1as/glassfish/modules/javax.inject.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javax.inject.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javax.inject.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javax.inject.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/resources-runtime.jar'.
+The resource download at s1as/glassfish/modules/resources-runtime.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/resources-runtime.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/resources-runtime.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/resources-runtime.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javamail-connector.jar'.
+The resource download at s1as/glassfish/modules/javamail-connector.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javamail-connector.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javamail-connector.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javamail-connector.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/javamail-runtime.jar'.
+The resource download at s1as/glassfish/modules/javamail-runtime.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/javamail-runtime.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/javamail-runtime.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/javamail-runtime.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/mq/lib/imq.jar'.
+The resource download at s1as/mq/lib/imq.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/mq/lib/imq.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/mq/lib/imq.jar resource.
+Lazy downloads might not work as expected for s1as/mq/lib/imq.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/mq/lib/imqadmin.jar'.
+The resource download at s1as/mq/lib/imqadmin.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/mq/lib/imqadmin.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/mq/lib/imqadmin.jar resource.
+Lazy downloads might not work as expected for s1as/mq/lib/imqadmin.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/mq/lib/imqutil.jar'.
+The resource download at s1as/mq/lib/imqutil.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/mq/lib/imqutil.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/mq/lib/imqutil.jar resource.
+Lazy downloads might not work as expected for s1as/mq/lib/imqutil.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/mq/lib/fscontext.jar'.
+The resource download at s1as/mq/lib/fscontext.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/mq/lib/fscontext.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/mq/lib/fscontext.jar resource.
+Lazy downloads might not work as expected for s1as/mq/lib/fscontext.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/lib/install/applications/jmsra/imqjmsra.jar'.
+The resource download at s1as/glassfish/lib/install/applications/jmsra/imqjmsra.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/lib/install/applications/jmsra/imqjmsra.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/lib/install/applications/jmsra/imqjmsra.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/lib/install/applications/jmsra/imqjmsra.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/lib/install/applications/__ds_jdbc_ra/__ds_jdbc_ra.jar'.
+The resource download at s1as/glassfish/lib/install/applications/__ds_jdbc_ra/__ds_jdbc_ra.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/lib/install/applications/__ds_jdbc_ra/__ds_jdbc_ra.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/lib/install/applications/__ds_jdbc_ra/__ds_jdbc_ra.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/lib/install/applications/__ds_jdbc_ra/__ds_jdbc_ra.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/lib/install/applications/__cp_jdbc_ra/__cp_jdbc_ra.jar'.
+The resource download at s1as/glassfish/lib/install/applications/__cp_jdbc_ra/__cp_jdbc_ra.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/lib/install/applications/__cp_jdbc_ra/__cp_jdbc_ra.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/lib/install/applications/__cp_jdbc_ra/__cp_jdbc_ra.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/lib/install/applications/__cp_jdbc_ra/__cp_jdbc_ra.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/lib/install/applications/__xa_jdbc_ra/__xa_jdbc_ra.jar'.
+The resource download at s1as/glassfish/lib/install/applications/__xa_jdbc_ra/__xa_jdbc_ra.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/lib/install/applications/__xa_jdbc_ra/__xa_jdbc_ra.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/lib/install/applications/__xa_jdbc_ra/__xa_jdbc_ra.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/lib/install/applications/__xa_jdbc_ra/__xa_jdbc_ra.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/lib/install/applications/__dm_jdbc_ra/__dm_jdbc_ra.jar'.
+The resource download at s1as/glassfish/lib/install/applications/__dm_jdbc_ra/__dm_jdbc_ra.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/lib/install/applications/__dm_jdbc_ra/__dm_jdbc_ra.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/lib/install/applications/__dm_jdbc_ra/__dm_jdbc_ra.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/lib/install/applications/__dm_jdbc_ra/__dm_jdbc_ra.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/javadb/lib/derby.jar'.
+The resource download at s1as/javadb/lib/derby.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/javadb/lib/derby.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/javadb/lib/derby.jar resource.
+Lazy downloads might not work as expected for s1as/javadb/lib/derby.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/javadb/lib/derbyclient.jar'.
+The resource download at s1as/javadb/lib/derbyclient.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/javadb/lib/derbyclient.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/javadb/lib/derbyclient.jar resource.
+Lazy downloads might not work as expected for s1as/javadb/lib/derbyclient.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/javadb/lib/derbynet.jar'.
+The resource download at s1as/javadb/lib/derbynet.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/javadb/lib/derbynet.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/javadb/lib/derbynet.jar resource.
+Lazy downloads might not work as expected for s1as/javadb/lib/derbynet.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/javadb/lib/derbytools.jar'.
+The resource download at s1as/javadb/lib/derbytools.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/javadb/lib/derbytools.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/javadb/lib/derbytools.jar resource.
+Lazy downloads might not work as expected for s1as/javadb/lib/derbytools.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/javadb/lib/derbyrun.jar'.
+The resource download at s1as/javadb/lib/derbyrun.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/javadb/lib/derbyrun.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/javadb/lib/derbyrun.jar resource.
+Lazy downloads might not work as expected for s1as/javadb/lib/derbyrun.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/lib/install/applications/jaxr-ra/jaxr-ra.jar'.
+The resource download at s1as/glassfish/lib/install/applications/jaxr-ra/jaxr-ra.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/lib/install/applications/jaxr-ra/jaxr-ra.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/lib/install/applications/jaxr-ra/jaxr-ra.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/lib/install/applications/jaxr-ra/jaxr-ra.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/entitybean-container.jar'.
+The resource download at s1as/glassfish/modules/entitybean-container.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/entitybean-container.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/entitybean-container.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/entitybean-container.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/jdbc-runtime.jar'.
+The resource download at s1as/glassfish/modules/jdbc-runtime.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/jdbc-runtime.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/jdbc-runtime.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/jdbc-runtime.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/jdbc-config.jar'.
+The resource download at s1as/glassfish/modules/jdbc-config.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/jdbc-config.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/jdbc-config.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/jdbc-config.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/weld-osgi-bundle.jar'.
+The resource download at s1as/glassfish/modules/weld-osgi-bundle.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/weld-osgi-bundle.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/weld-osgi-bundle.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/weld-osgi-bundle.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/endorsed/javax.annotation-api.jar'.
+The resource download at s1as/glassfish/modules/endorsed/javax.annotation-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/endorsed/javax.annotation-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/endorsed/javax.annotation-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/endorsed/javax.annotation-api.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/endorsed/webservices-api-osgi.jar'.
+The resource download at s1as/glassfish/modules/endorsed/webservices-api-osgi.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/endorsed/webservices-api-osgi.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/endorsed/webservices-api-osgi.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/endorsed/webservices-api-osgi.jar unless the download 'part' is specified. 
+Downloads can be optimized by specifying a resource size for 's1as/glassfish/modules/endorsed/jaxb-api.jar'.
+The resource download at s1as/glassfish/modules/endorsed/jaxb-api.jar can be optimized by removing the (default) value of download='eager'.
+The resource download at s1as/glassfish/modules/endorsed/jaxb-api.jar can be optimized by removing the (default) value of main='false'.
+It might be possible to optimize the start-up of the app. by  specifying download='lazy' for the s1as/glassfish/modules/endorsed/jaxb-api.jar resource.
+Lazy downloads might not work as expected for s1as/glassfish/modules/endorsed/jaxb-api.jar unless the download 'part' is specified. 
+
+
