@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
+
+    Copyright (c) 1997-2011 Oracle and/or its affiliates. All rights reserved.
+
+    The contents of this file are subject to the terms of either the GNU
+    General Public License Version 2 only ("GPL") or the Common Development
+    and Distribution License("CDDL") (collectively, the "License").  You
+    may not use this file except in compliance with the License.  You can
+    obtain a copy of the License at
+    https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html
+    or packager/legal/LICENSE.txt.  See the License for the specific
+    language governing permissions and limitations under the License.
+
+    When distributing the software, include this License Header Notice in each
+    file and include the License file at packager/legal/LICENSE.txt.
+
+    GPL Classpath Exception:
+    Oracle designates this particular file as subject to the "Classpath"
+    exception as provided by Oracle in the GPL Version 2 section of the License
+    file that accompanied this code.
+
+    Modifications:
+    If applicable, add the following below the License Header, with the fields
+    enclosed by brackets [] replaced by your own identifying information:
+    "Portions Copyright [year] [name of copyright owner]"
+
+    Contributor(s):
+    If you wish your version of this file to be governed by only the CDDL or
+    only the GPL Version 2, indicate your decision by adding "[Contributor]
+    elects to include this software in this distribution under the [CDDL or GPL
+    Version 2] license."  If you don't indicate a single choice of license, a
+    recipient has the option to distribute your version of this file under
+    either the CDDL, the GPL Version 2 or to extend the choice of license to
+    its licensees as provided above.  However, if you add GPL Version 2 code
+    and therefore, elected the GPL Version 2 license, then the option applies
+    only if the new code is made subject to such option by the copyright
+    holder.
+
+-->
+
+<jnlp
+    spec="1.0+"
+    codebase="http://dur:8080/___JWSappclient/___app/EntAppEJB"
+    href="___dyn/EntAppClient.jarClient/___main.jnlp">
+    <information>
+        <title>EntAppClient</title>
+        <vendor>Application Client</vendor>
+        <homepage href="${appclient.information.homepage.filepath}"/>
+        <description kind="one-line">EntAppClient</description>
+        <description kind="short">EntAppClient</description>
+        
+    <offline-allowed/>
+    </information>
+
+    <security>
+        <all-permissions/>
+    </security>
+
+    <resources>
+        
+<!--        <java version="1.6+"
+             java-vm-args="-showversion -javaagent=http://dur:8080/___JWSappclient/___system/s1as/glassfish/lib/gf-client.jar=mode=jws,${agent.args} " /> -->
+        <java version="1.6+" java-vm-args="-verbose " />
+        
+        <!-- 
+            In v3, run the client facade as the main JAR. Eventually Java Web
+            Start might support the splash screen in the JAR.
+        -->
+        <jar href="EntAppEJBClient/EntAppClientClient.jar" main="true" />
+        
+        <!--
+            If the client is part of an EAR then there will be an EAR-level
+            generated facade JAR file.
+        -->
+        <jar href="EntAppEJBClient.jar"/>
+
+        <jar href="http://dur:8080/___JWSappclient/___system/s1as/glassfish/lib/gf-client.jar"/>
+        <jar href="http://dur:8080/___JWSappclient/___system/s1as/glassfish/modules/gf-client-module.jar"/>
+
+        <!--
+            Refer to extension JNLP documents which list other resources - JARs and JNLPs.
+
+            The system extension lists the JARs that are common to all apps.  The
+            facade extension lists the generated facade JAR file for the client.
+            The client extension lists the client JAR.  The library extension
+            lists JARs from the EAR application to which the client directly
+            or indirectly refers.
+        -->
+        <extension name="___system" href="http://dur:8080/___JWSappclient/___system/___dyn/___system_s1as.jnlp"/>
+        <extension name="___client" href="___dyn/EntAppClient.jarClient/___client.jnlp"/>
+
+        <extension name="libJars-s1as" href="___lib/client-libs-s1as.jnlp"/>
+
+        <property name="appclient.system.codebase" value="http://dur:8080/___JWSappclient/___system"/>
+        <property name="appclient.is.jws" value="true"/>
+
+        <property name="agent.args" value="mode=jws,client=url=http://dur:8080/___JWSappclient/___app/EntAppEJB/EntAppEJBClient/EntAppClientClient.jar,arg=-targetserver,arg=dur:3700"/>
+        
+        
+
+        <property name="client.facade.jar.path" value="EntAppEJBClient/EntAppClientClient.jar"/>
+        <property name="full.app.codebase.path" value="http://dur:8080/___JWSappclient/___app/EntAppEJB"/>
+        <!--
+            Properties specified on the request as query parameters (if any)
+        -->
+        
+
+        <!--
+            Content normally read from files during an appclient script launch.
+        -->
+        <property name="glassfish-acc.xml.content" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!--
+
+    DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
+
+    Copyright (c) 2004-2013 Oracle and/or its affiliates. All rights reserved.
+
+    The contents of this file are subject to the terms of either the GNU
+    General Public License Version 2 only (&quot;GPL&quot;) or the Common Development
+    and Distribution License(&quot;CDDL&quot;) (collectively, the &quot;License&quot;).  You
+    may not use this file except in compliance with the License.  You can
+    obtain a copy of the License at
+    https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html
+    or packager/legal/LICENSE.txt.  See the License for the specific
+    language governing permissions and limitations under the License.
+
+    When distributing the software, include this License Header Notice in each
+    file and include the License file at packager/legal/LICENSE.txt.
+
+    GPL Classpath Exception:
+    Oracle designates this particular file as subject to the &quot;Classpath&quot;
+    exception as provided by Oracle in the GPL Version 2 section of the License
+    file that accompanied this code.
+
+    Modifications:
+    If applicable, add the following below the License Header, with the fields
+    enclosed by brackets [] replaced by your own identifying information:
+    &quot;Portions Copyright [year] [name of copyright owner]&quot;
+
+    Contributor(s):
+    If you wish your version of this file to be governed by only the CDDL or
+    only the GPL Version 2, indicate your decision by adding &quot;[Contributor]
+    elects to include this software in this distribution under the [CDDL or GPL
+    Version 2] license.&quot;  If you don't indicate a single choice of license, a
+    recipient has the option to distribute your version of this file under
+    either the CDDL, the GPL Version 2 or to extend the choice of license to
+    its licensees as provided above.  However, if you add GPL Version 2 code
+    and therefore, elected the GPL Version 2 license, then the option applies
+    only if the new code is made subject to such option by the copyright
+    holder.
+
+--&gt;
+
+&lt;!--
+   Please remember to customize this file for your environment. The defaults for 
+   following fields may not be appropriate.  
+   - target-server name, address and port
+   - Property security.config in message-security-config
+--&gt;
+
+&lt;!DOCTYPE client-container PUBLIC &quot;-//GlassFish.org//DTD GlassFish Application Server 3.1 Application Client Container//EN&quot; &quot;http://glassfish.org/dtds/glassfish-application-client-container_1_3.dtd&quot;&gt;
+
+&lt;client-container&gt;
+  &lt;target-server name=&quot;sc11152550.us.oracle.com&quot; address=&quot;localhost&quot; port=&quot;3700&quot;/&gt;
+  &lt;log-service file=&quot;&quot; level=&quot;WARNING&quot;/&gt;
+  &lt;message-security-config auth-layer=&quot;SOAP&quot;&gt;
+    &lt;!-- turned off by default --&gt;
+    &lt;provider-config class-name=&quot;com.sun.xml.wss.provider.ClientSecurityAuthModule&quot; provider-id=&quot;XWS_ClientProvider&quot; provider-type=&quot;client&quot;&gt; 
+      &lt;request-policy auth-source=&quot;content&quot;/&gt;
+      &lt;response-policy auth-source=&quot;content&quot;/&gt;
+      &lt;property name=&quot;encryption.key.alias&quot; value=&quot;s1as&quot;/&gt;
+      &lt;property name=&quot;signature.key.alias&quot; value=&quot;s1as&quot;/&gt;
+      &lt;property name=&quot;dynamic.username.password&quot; value=&quot;false&quot;/&gt;
+      &lt;property name=&quot;debug&quot; value=&quot;false&quot;/&gt;
+    &lt;/provider-config&gt;
+    &lt;provider-config class-name=&quot;com.sun.xml.wss.provider.ClientSecurityAuthModule&quot; provider-id=&quot;ClientProvider&quot; provider-type=&quot;client&quot;&gt; 
+      &lt;request-policy auth-source=&quot;content&quot;/&gt;
+      &lt;response-policy auth-source=&quot;content&quot;/&gt;
+      &lt;property name=&quot;encryption.key.alias&quot; value=&quot;s1as&quot;/&gt;
+      &lt;property name=&quot;signature.key.alias&quot; value=&quot;s1as&quot;/&gt;
+      &lt;property name=&quot;dynamic.username.password&quot; value=&quot;false&quot;/&gt;
+      &lt;property name=&quot;debug&quot; value=&quot;false&quot;/&gt;
+      &lt;property name=&quot;security.config&quot; value=&quot;${security.config.path}&quot;/&gt;
+    &lt;/provider-config&gt;
+  &lt;/message-security-config&gt;
+&lt;/client-container&gt;
+"/>
+        <property name="appclient.login.conf.content" value="/*
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
+ *
+ * Copyright (c) 2004-2010 Oracle and/or its affiliates. All rights reserved.
+ *
+ * The contents of this file are subject to the terms of either the GNU
+ * General Public License Version 2 only (&quot;GPL&quot;) or the Common Development
+ * and Distribution License(&quot;CDDL&quot;) (collectively, the &quot;License&quot;).  You
+ * may not use this file except in compliance with the License.  You can
+ * obtain a copy of the License at
+ * https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html
+ * or packager/legal/LICENSE.txt.  See the License for the specific
+ * language governing permissions and limitations under the License.
+ *
+ * When distributing the software, include this License Header Notice in each
+ * file and include the License file at packager/legal/LICENSE.txt.
+ *
+ * GPL Classpath Exception:
+ * Oracle designates this particular file as subject to the &quot;Classpath&quot;
+ * exception as provided by Oracle in the GPL Version 2 section of the License
+ * file that accompanied this code.
+ *
+ * Modifications:
+ * If applicable, add the following below the License Header, with the fields
+ * enclosed by brackets [] replaced by your own identifying information:
+ * &quot;Portions Copyright [year] [name of copyright owner]&quot;
+ *
+ * Contributor(s):
+ * If you wish your version of this file to be governed by only the CDDL or
+ * only the GPL Version 2, indicate your decision by adding &quot;[Contributor]
+ * elects to include this software in this distribution under the [CDDL or GPL
+ * Version 2] license.&quot;  If you don't indicate a single choice of license, a
+ * recipient has the option to distribute your version of this file under
+ * either the CDDL, the GPL Version 2 or to extend the choice of license to
+ * its licensees as provided above.  However, if you add GPL Version 2 code
+ * and therefore, elected the GPL Version 2 license, then the option applies
+ * only if the new code is made subject to such option by the copyright
+ * holder.
+ */
+
+default {
+	com.sun.enterprise.security.auth.login.ClientPasswordLoginModule required debug=false;
+};
+
+certificate {
+	com.sun.enterprise.security.auth.login.ClientCertificateLoginModule required debug=false;
+};
+"/>
+        <property name="message.security.config.provider.security.config"
+            value="&lt;!--
+
+    DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
+
+    Copyright (c) 2004-2010 Oracle and/or its affiliates. All rights reserved.
+
+    The contents of this file are subject to the terms of either the GNU
+    General Public License Version 2 only (&quot;GPL&quot;) or the Common Development
+    and Distribution License(&quot;CDDL&quot;) (collectively, the &quot;License&quot;).  You
+    may not use this file except in compliance with the License.  You can
+    obtain a copy of the License at
+    https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html
+    or packager/legal/LICENSE.txt.  See the License for the specific
+    language governing permissions and limitations under the License.
+
+    When distributing the software, include this License Header Notice in each
+    file and include the License file at packager/legal/LICENSE.txt.
+
+    GPL Classpath Exception:
+    Oracle designates this particular file as subject to the &quot;Classpath&quot;
+    exception as provided by Oracle in the GPL Version 2 section of the License
+    file that accompanied this code.
+
+    Modifications:
+    If applicable, add the following below the License Header, with the fields
+    enclosed by brackets [] replaced by your own identifying information:
+    &quot;Portions Copyright [year] [name of copyright owner]&quot;
+
+    Contributor(s):
+    If you wish your version of this file to be governed by only the CDDL or
+    only the GPL Version 2, indicate your decision by adding &quot;[Contributor]
+    elects to include this software in this distribution under the [CDDL or GPL
+    Version 2] license.&quot;  If you don't indicate a single choice of license, a
+    recipient has the option to distribute your version of this file under
+    either the CDDL, the GPL Version 2 or to extend the choice of license to
+    its licensees as provided above.  However, if you add GPL Version 2 code
+    and therefore, elected the GPL Version 2 license, then the option applies
+    only if the new code is made subject to such option by the copyright
+    holder.
+
+--&gt;
+
+&lt;!--
+ This client side config file pairs with wss-server-config-1.0.xml on the server
+ and supports the following UseCases:
+ Usecase 1: Authentication by Protected UsernameToken
+ Usecase 3: Encrypted UsernameToken and MessageBody
+ Usecase 4: Response Encryption Key Learnt from Incoming Message
+
+ Certificate Alias Information :
+ 1. A certificateAlias under the &lt;xwss:Encrypt&gt; element signifies the certificate
+    of the recipient of the message.
+ 2. A certificateAlias under the &lt;xwss:Sign&gt; element signifies the certificate of the
+    sender.
+
+ NOTE: 
+
+   1. the certificateAlias has the above meaning for all the Sign and Encrypt elements below
+   2. there are several Sign and Encrypt elements below and similarly several RequireSignature and
+      RequireEncryption elements. Which of them would be actually used at runtime will depend on
+      the AuthPolicy passed to the module.
+
+      For Example : if Auth-Source=Sender then only the &lt;xwss:UsernameToken&gt; elements will be used
+      and none of the &lt;xwss:Sign&gt; elements will be used.
+      If Auth-Source=Content then the &lt;xwss:Sign&gt; element will be used
+
+   3.  The different variations of &lt;xwss:Encrypt&gt; elements in this configuration file are to accomodate
+       default encryption of the UsernameToken.
+
+   4.  The actual certificate alias to be used for any Signature operation can be modified during AuthModule
+       initialization by setting the alias as the value of &quot;signature.key.alias&quot; property in the Module Options Map.
+   5.  The actual certificate alias to be used for any Encrypt operation can be modified during AuthModule
+       initialization by setting the alias as the value of &quot;encryption.key.alias&quot; property in the Module Options Map.
+
+   6. Debug Dumping of Messages can be enabled by setting the &quot;debug&quot; property in the Module Options Map to &quot;true&quot; during
+      AuthModule initialization.
+   7. The Actual configuration file to be used by an Authmodule can be changed by setting the property &quot;security.config&quot; in
+      the Module Options Map to point to the configuration file location. 
+   8. When the &quot;security.config&quot; property is not set during module initialization then a client auth module will use wss-client-config-2.0.xml
+      by default.
+   9. When the &quot;security.config&quot; property is not set during module initialization then a server auth module will use wss-server-config-2.0.xml by default.
+  10. The property &quot;dynamic.username.password&quot; when set during module initialization to &quot;true&quot; will signal the provider runtime to collect the username and password from the CallbackHandler for each request. When this property is set to &quot;false&quot; or if the property is not set then the username and password for  wsse:UsernameToken(s) is collected once during Module Initialization.
+--&gt;
+
+&lt;xwss:SecurityConfiguration xmlns:xwss=&quot;http://java.sun.com/xml/ns/xwss/config&quot; 
+                            dumpMessages=&quot;false&quot;&gt;                           
+    &lt;xwss:Timestamp/&gt;
+    &lt;xwss:RequireUsernameToken nonceRequired=&quot;false&quot; passwordDigestRequired=&quot;false&quot;/&gt;   
+    &lt;xwss:RequireEncryption&gt;
+        &lt;xwss:Target type=&quot;qname&quot;&gt;SOAP-BODY&lt;/xwss:Target&gt;
+    &lt;/xwss:RequireEncryption&gt;
+    &lt;xwss:RequireEncryption&gt;
+        &lt;xwss:Target type=&quot;qname&quot;&gt;{http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd}UsernameToken&lt;/xwss:Target&gt;
+        &lt;xwss:Target type=&quot;qname&quot;&gt;SOAP-BODY&lt;/xwss:Target&gt;
+    &lt;/xwss:RequireEncryption&gt;
+    &lt;xwss:RequireEncryption&gt;
+        &lt;xwss:Target type=&quot;qname&quot;&gt;SOAP-BODY&lt;/xwss:Target&gt;
+        &lt;xwss:Target type=&quot;qname&quot;&gt;{http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd}UsernameToken&lt;/xwss:Target&gt;
+    &lt;/xwss:RequireEncryption&gt;
+    &lt;xwss:RequireSignature&gt;
+        &lt;xwss:Target type=&quot;qname&quot;&gt;SOAP-BODY&lt;/xwss:Target&gt;
+    &lt;/xwss:RequireSignature&gt;     
+    &lt;xwss:Encrypt&gt;
+        &lt;xwss:X509Token certificateAlias=&quot;s1as&quot;/&gt;
+    &lt;/xwss:Encrypt&gt;    
+     &lt;xwss:Encrypt&gt;
+        &lt;xwss:X509Token certificateAlias=&quot;s1as&quot;/&gt;
+        &lt;xwss:KeyEncryptionMethod algorithm=&quot;http://www.w3.org/2001/04/xmlenc#rsa-1_5&quot;/&gt;
+        &lt;xwss:Target type=&quot;qname&quot;&gt;{http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd}UsernameToken&lt;/xwss:Target&gt;
+        &lt;xwss:Target type=&quot;qname&quot;&gt;SOAP-BODY&lt;/xwss:Target&gt;
+    &lt;/xwss:Encrypt&gt;
+    &lt;xwss:Encrypt&gt;
+        &lt;xwss:X509Token certificateAlias=&quot;s1as&quot;/&gt;
+        &lt;xwss:KeyEncryptionMethod algorithm=&quot;http://www.w3.org/2001/04/xmlenc#rsa-1_5&quot;/&gt;
+        &lt;xwss:Target type=&quot;qname&quot;&gt;SOAP-BODY&lt;/xwss:Target&gt;
+        &lt;xwss:Target type=&quot;qname&quot;&gt;{http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd}UsernameToken&lt;/xwss:Target&gt;
+    &lt;/xwss:Encrypt&gt;
+    &lt;xwss:Sign&gt;
+        &lt;xwss:X509Token certificateAlias=&quot;s1as&quot;/&gt;
+    &lt;/xwss:Sign&gt;
+    &lt;xwss:UsernameToken digestPassword=&quot;false&quot; useNonce=&quot;false&quot;/&gt;
+&lt;/xwss:SecurityConfiguration&gt;
+"/>
+
+        <property name="loader.config" value="#
+# DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
+#
+# Copyright (c) 2010-2014 Oracle and/or its affiliates. All rights reserved.
+#
+# The contents of this file are subject to the terms of either the GNU
+# General Public License Version 2 only (&quot;GPL&quot;) or the Common Development
+# and Distribution License(&quot;CDDL&quot;) (collectively, the &quot;License&quot;).  You
+# may not use this file except in compliance with the License.  You can
+# obtain a copy of the License at
+# https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html
+# or packager/legal/LICENSE.txt.  See the License for the specific
+# language governing permissions and limitations under the License.
+#
+# When distributing the software, include this License Header Notice in each
+# file and include the License file at packager/legal/LICENSE.txt.
+#
+# GPL Classpath Exception:
+# Oracle designates this particular file as subject to the &quot;Classpath&quot;
+# exception as provided by Oracle in the GPL Version 2 section of the License
+# file that accompanied this code.
+#
+# Modifications:
+# If applicable, add the following below the License Header, with the fields
+# enclosed by brackets [] replaced by your own identifying information:
+# &quot;Portions Copyright [year] [name of copyright owner]&quot;
+#
+# Contributor(s):
+# If you wish your version of this file to be governed by only the CDDL or
+# only the GPL Version 2, indicate your decision by adding &quot;[Contributor]
+# elects to include this software in this distribution under the [CDDL or GPL
+# Version 2] license.&quot;  If you don't indicate a single choice of license, a
+# recipient has the option to distribute your version of this file under
+# either the CDDL, the GPL Version 2 or to extend the choice of license to
+# its licensees as provided above.  However, if you add GPL Version 2 code
+# and therefore, elected the GPL Version 2 license, then the option applies
+# only if the new code is made subject to such option by the copyright
+# holder.
+#
+#
+# This file incorporates work covered by the following copyright and
+# permission notice:
+#
+# Licensed to the Apache Software Foundation (ASF) under one or more
+# contributor license agreements.  See the NOTICE file distributed with
+# this work for additional information regarding copyright ownership.
+# The ASF licenses this file to You under the Apache License, Version 2.0
+# (the &quot;License&quot;); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+
+#
+# Framework config properties.
+#
+
+# Packages exported by system bundle when framework is Felix.
+# Unlike Equinox, Felix requires us to list all packages from felix.jar 
+# while using org.osgi.framework.system.packages property.
+Felix.system.packages=\
+ org.osgi.framework; version=1.6.0, \
+ org.osgi.framework.launch; version=1.0.0, \
+ org.osgi.framework.wiring; version=1.0.0, \
+ org.osgi.framework.startlevel; version=1.0.0, \
+ org.osgi.framework.hooks.bundle; version=1.0.0, \
+ org.osgi.framework.hooks.resolver; version=1.0.0, \
+ org.osgi.framework.hooks.service; version=1.1.0, \
+ org.osgi.framework.hooks.weaving; version=1.0.0, \
+ org.osgi.service.packageadmin; version=1.2.0, \
+ org.osgi.service.startlevel; version=1.1.0, \
+ org.osgi.service.url; version=1.0.0, \
+ org.osgi.util.tracker; version=1.5.0, \
+ ${extra-system-packages}
+
+# Packages exported by system bundle when framework is Equinox.
+# Unlike Felix, It is not required to explicitly mention the packages exported by equinox framework jar.
+# Equinox automatically adds packages from equinox.jar to exported package list.
+Equinox.system.packages=${extra-system-packages}
+
+# Packages exported by system bundle when framework is Knopflerfish.
+# Taken from MANIFEST.MF of framework.jar distributed with Knopflerfish 3.5.0.
+# Like Felix, this also requires OSGi packages to be listed unless we use 
+# org.osgi.framework.system.packages.extra property.
+Knopflerfish.system.packages=\
+ org.osgi.framework;version=1.5, \
+ org.osgi.framework.launch;version=1.0, \
+ org.osgi.framework.hooks.service;version=1.0, \
+ org.osgi.service.packageadmin;version=1.2, \
+ org.osgi.service.permissionadmin;version=1.2, \
+ org.osgi.util.tracker;version=1.4, \
+ org.osgi.service.startlevel;version=1.1, \
+ org.osgi.service.url;version=1.0, \
+ org.osgi.service.condpermadmin;version=1.1, \
+ ${extra-system-packages}
+
+
+# As much as we prefer system.packages.extra to system.packages, we are forced to 
+# configure system bundle using system.packages property because neither
+# Equinox nor Knopflerfish have the correct list of Java SE packages. Only
+# Felix has it after we supplied them the patch. It's a pity that something like
+# Java SE package list is not correctly set by various framework vendors correctly.
+org.osgi.framework.system.packages=${${GlassFish_Platform}.system.packages}
+
+# embeddable package version must match what is found in core/bootstrap/osgi.bundle file. See that file more details.
+extra-system-packages=${jre-${java.specification.version}}, org.glassfish.embeddable;org.glassfish.embeddable.spi;version=3.1.1
+
+# Although Eclipselink imports these packages, in typical GlassFish installation,
+# Oracle JDBC driver may not be available as a bundle, so we ask user to install it in 
+# java.ext.dirs and the bootdelegation helps there.
+eclipselink.bootdelegation=oracle.sql, oracle.sql.*
+
+# There is no need to use bootdelegation except for the following issues:
+# 1. EclipseLink
+# 4. NetBeans profiler packages exist in parent class loader (see issue #8612)
+# 5. BTrace exists in bootclasspath.
+org.osgi.framework.bootdelegation=${eclipselink.bootdelegation}, \
+                                  com.sun.btrace, com.sun.btrace.*, \
+                                  org.netbeans.lib.profiler, org.netbeans.lib.profiler.*
+                                  
+# The OSGi R4.2 spec says boot delegation uses the boot class loader by default. We need
+# to configure it to use the framework class loader because that class loader is
+# configured with extra classes like jdk tools.jar, derby jars, etc. that must be
+# made available in GlassFish to work.
+org.osgi.framework.bundle.parent=framework
+
+# We don't set this value here, as expanding GlassFish_Platform gives us a file name with upper case
+# char in it. GlassFish file layout does not recommend use of upper case char, because some 
+# platforms like Windows don't honor case in file names. So, we don't set the cache dir here.
+# Instead, it is set in various PlatformHelper implementations.
+#org.osgi.framework.storage=${com.sun.aas.instanceRoot}/osgi-cache/${GlassFish_Platform}/
+# See GLASSFISH-19624 as to why we always clean the cache on Knopflerfish.
+Knopflerfish.storage.clean=onFirstInit
+org.osgi.framework.storage.clean=${${GlassFish_Platform}.storage.clean}
+
+# Are we using ondemand provisioning of OSGi modules? default is false.
+glassfish.osgi.ondemand=false
+
+# Is OBR enabled?
+com.sun.enterprise.hk2.obrEnabled=${glassfish.osgi.ondemand}
+
+# Directory containing all the modules.
+com.sun.enterprise.hk2.repositories=${com.sun.aas.installRootURI}/modules/
+
+# Should the repo be synchronously initialized. Default is true to avoid any potential race condition.
+# However, we should eventually set it to false to minimize impact on start up time.
+com.sun.enterprise.hk2.initializeRepoSynchronously=true
+
+# Should fragments be deployed? default is false.
+com.sun.enterprise.hk2.obrDeploysFragments=false
+
+# Should OBR deploy optional requirements
+com.sun.enterprise.hk2.obrDeploysOptionalRequirements=true
+
+# Is Obr cached in serialized format? Default is false in which case XML format is used.
+com.sun.enterprise.hk2.obrIsSerialized=false
+
+# This is where we cache the inhabitants information
+com.sun.enterprise.hk2.cacheDir=${org.osgi.framework.storage}
+
+# Important Note about glassfish.osgi.auto.* properties.
+# These properties are interpreted by our autoprocessor to install and start the configured list of bundles.
+# There are three properties:
+# glassfish.osgi.auto.install, glassfish.osgi.auto.start, glassfish.osgi.auto.start.level[.N]
+# to control what gets installed in which order, what gets started and what should be the bundle's start level.
+# glassfish.osgi.auto.install is used to configure a list of locations from where bundles will be installed.
+# The order is important as bundle installation order is an input to package resolution process in OSGi.
+# Since we want packages from endorsed bundles to be preferred over those exported by system bundle for 
+# overlapping packages, we need to install and start endorsed bundles first. 
+# Then we start osgi-resource-locator bundle as osgi-adapter depends on it being active.
+# Since Felix starts bundles with same start level in the order in which bundles are installed,
+# and osgi-adapter and osgi-resource-locator both have same start level of 1, to make sure
+# osgi-resource-locator starts ahead of osgi-adapter, we install it ahead of osgi-adapter as well.
+# TODO: We should fix it by using different start levels, but at this point we can't change
+# the start levels, as we have already documented the start levels shell bundles in public documents.
+# When we change that, we shall change here as well.
+# Then we autostart GlassFish core bundles followed by optional services.
+# The reason for using installRootURI is to make sure any char like white space is properly encoded.
+glassfish.osgi.auto.install=\
+ ${com.sun.aas.installRootURI}modules/endorsed/ \
+ ${com.sun.aas.installRootURI}modules/osgi-resource-locator.jar \
+ ${com.sun.aas.installRootURI}modules/ \
+ ${com.sun.aas.installRootURI}modules/autostart/
+
+# This bundle is only needed to be activated if we want to use ondemqand mode.
+# Since ondemand mode is not the default mode, we don't activate it by default
+# to save time and space. Let it be defined explicitly when we need ondemand support.
+# We have already added necessary support to easily set a property while launching
+# from command line or via domain.xml.
+#obr.bundles=${com.sun.aas.installRootURI}modules/org.apache.felix.bundlerepository.jar
+
+hk2.bundles=\
+ ${com.sun.aas.installRootURI}modules/core.jar \
+ ${com.sun.aas.installRootURI}modules/hk2-api.jar \
+ ${com.sun.aas.installRootURI}modules/hk2-utils.jar \
+ ${com.sun.aas.installRootURI}modules/javax.inject.jar \
+ ${com.sun.aas.installRootURI}modules/osgi-resource-locator.jar \
+ ${com.sun.aas.installRootURI}modules/hk2-locator.jar \
+ ${com.sun.aas.installRootURI}modules/hk2-runlevel.jar \
+ ${com.sun.aas.installRootURI}modules/hk2-config.jar \
+ ${com.sun.aas.installRootURI}modules/config-types.jar \
+ ${com.sun.aas.installRootURI}modules/bean-validator.jar \
+ ${com.sun.aas.installRootURI}modules/class-model.jar \
+ ${com.sun.aas.installRootURI}modules/asm-all-repackaged.jar \
+ ${com.sun.aas.installRootURI}modules/osgi-adapter.jar
+
+core.bundles=\
+ ${com.sun.aas.installRootURI}modules/endorsed/ \
+ ${obr.bundles} \
+ ${hk2.bundles} \
+ ${com.sun.aas.installRootURI}modules/glassfish.jar
+
+autostart.bundles=${com.sun.aas.installRootURI}modules/autostart/
+
+# This property is used to configure a list of bundles to be started by our autoprocessor.
+# Eventual activation of the bundles depend on bundle's start level and activation policy.
+glassfish.osgi.auto.start=\
+ ${core.bundles} \
+ ${autostart.bundles}
+
+# List of bundles whose start level is 1
+glassfish.osgi.auto.start.level.1=${core.bundles}
+
+# List of bundles whose start level is 2
+# For start up performance, we don't start optional bundles before start level 2.
+glassfish.osgi.auto.start.level.2=${autostart.bundles}
+
+# Final start level of OSGi framework. This is used by GlassFish launcher code
+# to set the start level of the OSGi framework once server is up and running so that
+# optional services can start. The initial start level of framework is controlled using
+# the standard framework property called org.osgi.framework.startlevel.beginning
+glassfish.osgi.start.level.final=2
+
+# What should be the initial start level of framework. 
+# For performance reason, initially we set the start level to 1 so that no optional
+# bundles can get activated while server is still starting. Once server is started,
+# the framework's start level is set to whatever is configured in glassfish.osgi.start.level.final property.
+org.osgi.framework.startlevel.beginning=1
+
+# Set bundle start level to be same or less than that of framework, 
+# otherwise HK2 installed bundles won't be activated.
+# See issue #5934
+felix.startlevel.bundle=1
+
+# log level 1: error, 2: warning, 3: info, 4: debug
+felix.log.level=1
+
+# The Felix launcher registers a shutdown hook to cleanly stop the framework
+# by default, uncomment the following line to disable it.
+# Since, GlassFish uses its own shutdown hook to stop the framework, we don't need this.
+felix.shutdown.hook=false
+
+#felix.service.urlhandlers=false
+
+# Should OSGi bundles inherit permissions from JDK security manager policy configuration?
+# Set it to true if you waant them to. Default is false for backward compatibility reasons.
+felix.security.defaultpolicy=true
+
+# See equinox bug #329314
+osgi.resolver.preferSystemPackages=false
+
+# See equinox bug #344850
+osgi.compatibility.bootdelegation=false
+
+#
+# Java SE 6 platform packages. Taken from: http://java.sun.com/javase/6/docs/api/
+# Don't add/remove any new package unless you find bugs.
+# Since we don't know the actual package versions,
+# we export most of them with default version.
+jre-1.6=\
+ javax.accessibility, \
+ javax.activation, \
+ javax.activity, \
+ javax.annotation.processing, \
+ javax.crypto, \
+ javax.crypto.interfaces, \
+ javax.crypto.spec, \
+ javax.imageio, \
+ javax.imageio.event, \
+ javax.imageio.metadata, \
+ javax.imageio.plugins.bmp, \
+ javax.imageio.plugins.jpeg, \
+ javax.imageio.spi, \
+ javax.imageio.stream, \
+ javax.lang.model, \
+ javax.lang.model.element, \
+ javax.lang.model.type, \
+ javax.lang.model.util, \
+ javax.management, \
+ javax.management.loading, \
+ javax.management.modelmbean, \
+ javax.management.monitor, \
+ javax.management.openmbean, \
+ javax.management.relation, \
+ javax.management.remote, \
+ javax.management.remote.rmi, \
+ javax.management.timer, \
+ javax.naming, \
+ javax.naming.directory, \
+ javax.naming.event, \
+ javax.naming.ldap, \
+ javax.naming.spi, \
+ javax.net, \
+ javax.net.ssl, \
+ javax.print, \
+ javax.print.attribute, \
+ javax.print.attribute.standard, \
+ javax.print.event, \
+ javax.rmi, \
+ javax.rmi.CORBA, \
+ javax.rmi.ssl, \
+ javax.script, \
+ javax.security.auth, \
+ javax.security.auth.callback, \
+ javax.security.auth.kerberos, \
+ javax.security.auth.login, \
+ javax.security.auth.spi, \
+ javax.security.auth.x500, \
+ javax.security.cert, \
+ javax.security.sasl, \
+ javax.sound.midi, \
+ javax.sound.midi.spi, \
+ javax.sound.sampled, \
+ javax.sound.sampled.spi, \
+ javax.sql, \
+ javax.sql.rowset, \
+ javax.sql.rowset.serial, \
+ javax.sql.rowset.spi, \
+ javax.swing, \
+ javax.swing.border, \
+ javax.swing.colorchooser, \
+ javax.swing.event, \
+ javax.swing.filechooser, \
+ javax.swing.plaf, \
+ javax.swing.plaf.basic, \
+ javax.swing.plaf.metal, \
+ javax.swing.plaf.multi, \
+ javax.swing.plaf.synth, \
+ javax.swing.table, \
+ javax.swing.text, \
+ javax.swing.text.html, \
+ javax.swing.text.html.parser, \
+ javax.swing.text.rtf, \
+ javax.swing.tree, \
+ javax.swing.undo, \
+ javax.tools, \
+ javax.transaction; javax.transaction.xa, \
+ javax.xml, \
+ javax.xml.crypto, \
+ javax.xml.crypto.dom, \
+ javax.xml.crypto.dsig, \
+ javax.xml.crypto.dsig.dom, \
+ javax.xml.crypto.dsig.keyinfo, \
+ javax.xml.crypto.dsig.spec, \
+ javax.xml.datatype, \
+ javax.xml.namespace, \
+ javax.xml.parsers, \
+ javax.xml.soap, \
+ javax.xml.stream; javax.xml.stream.events; javax.xml.stream.util, \
+ javax.xml.transform, \
+ javax.xml.transform.dom, \
+ javax.xml.transform.sax, \
+ javax.xml.transform.stax, \
+ javax.xml.transform.stream, \
+ javax.xml.validation, \
+ javax.xml.xpath, \
+ org.ietf.jgss, \
+ org.omg.CORBA, \
+ org.omg.CORBA.DynAnyPackage, \
+ org.omg.CORBA.ORBPackage, \
+ org.omg.CORBA.TypeCodePackage, \
+ org.omg.CORBA.portable, \
+ org.omg.CORBA_2_3, \
+ org.omg.CORBA_2_3.portable, \
+ org.omg.CosNaming, \
+ org.omg.CosNaming.NamingContextExtPackage, \
+ org.omg.CosNaming.NamingContextPackage, \
+ org.omg.Dynamic, \
+ org.omg.DynamicAny, \
+ org.omg.DynamicAny.DynAnyFactoryPackage, \
+ org.omg.DynamicAny.DynAnyPackage, \
+ org.omg.IOP, \
+ org.omg.IOP.CodecFactoryPackage, \
+ org.omg.IOP.CodecPackage, \
+ org.omg.Messaging, \
+ org.omg.PortableInterceptor, \
+ org.omg.PortableInterceptor.ORBInitInfoPackage, \
+ org.omg.PortableServer, \
+ org.omg.PortableServer.CurrentPackage, \
+ org.omg.PortableServer.POAManagerPackage, \
+ org.omg.PortableServer.POAPackage, \
+ org.omg.PortableServer.ServantLocatorPackage, \
+ org.omg.PortableServer.portable, \
+ org.omg.SendingContext, \
+ org.w3c.dom, \
+ org.w3c.dom.bootstrap, \
+ org.w3c.dom.events, \
+ org.w3c.dom.ls, \
+ org.xml.sax, \
+ org.xml.sax.ext, \
+ org.xml.sax.helpers, ${endorsed-standard-packages}
+
+endorsed-standard-packages=\
+ javax.annotation, \
+ javax.xml.bind, \
+ javax.xml.bind.annotation, \
+ javax.xml.bind.annotation.adapters, \
+ javax.xml.bind.attachment, \
+ javax.xml.bind.helpers, \
+ javax.xml.bind.util, \
+ javax.jws, \
+ javax.jws.soap, \
+ javax.xml.ws, \
+ javax.xml.ws.handler, \
+ javax.xml.ws.handler.soap, \
+ javax.xml.ws.http, \
+ javax.xml.ws.soap, \
+ javax.xml.ws.spi, \
+ javax.xml.ws.wsaddressing
+
+#dtrace support 
+# TODO: We still need to add appropriate SE packages for 7 &amp; 8.
+jre-1.7=${jre-1.6},com.sun.tracing
+jre-1.8=${jre-1.7}
+jre-1.9=${jre-1.8}
+
+# Bundle information optimization to improve performance
+felix.cache.singlebundlefile=true
+
+# Set this to true if you want to use JPA in Java SE mode in your OSGi bundles.
+# See GLASSFISH-14134 for more details.
+org.glassfish.osgjpa.extension.useHybridPersistenceProviderResolver=false
+
+# When HybridPersistenceProviderResolver is used, it can be configured to use a cache. 
+# Setting the next property to false, disables caching of providers.
+org.glassfish.osgjpa.extension.hybridPersistenceProviderResolver.cachingEnabled=true
+
+# We have stopped using FileInstall to monitor autostart/. Because we can't change domain.xml
+# in 3.1.1, we have to rely on configuring FileInstall using this file.
+felix.fileinstall.dir=${com.sun.aas.instanceRoot}/autodeploy/bundles/
+felix.fileinstall.poll=5000
+felix.fileinstall.log.level=3
+felix.fileinstall.bundles.new.start=true
+felix.fileinstall.bundles.startTransient=true
+felix.fileinstall.disableConfigSave=false
+
+# If we don't set this, when we run our tests in embedded mode, gogo shell stops the framework after running the login command.
+gosh.args=--nointeractive
+"/>
+
+<!-- from the command line -->
+<!--
+<property name="java.util.logging.manager" value="com.sun.enterprise.server.logging.ACCLogManager"/>
+-->
+
+        <!--
+            Turn on fine logging by default to help with diagnosis.  Users will not
+            usually see the output anyway.
+        -->
+        <property name="javax.enterprise.resource.corba.level" value="FINE"/>
+
+
+<!-- =================================================================================
+    The next three properties are set in the jndi.properties file.  Set them
+    here so they are detected in the Java Web Start environment.
+-->
+
+        <property name="java.naming.factory.initial" value="com.sun.enterprise.naming.SerialInitContextFactory"/>
+        <property name="java.naming.factory.url.pkgs" value="com.sun.enterprise.naming"/>
+
+<!--
+# Required to add a javax.naming.spi.StateFactory for CosNaming that
+# supports dynamic RMI-IIOP.
+-->
+        <property name="java.naming.factory.state" value="com.sun.corba.ee.impl.presentation.rmi.JNDIStateFactoryImpl"/>
+<!-- ================================================================================== -->
+
+        <property name="appclient.iiop.defaultHost" value="dur"/>
+        <property name="appclient.iiop.defaultPort" value="${request.appclient.iiop.defaultPort}"/>
+
+        <property name="${appclient.download.host.propertyName}" value="dur"/>
+
+        <property name="${appclient.user.code.is.signed.propertyName}" value="${appclient.user.code.is.signed}"/>
+
+    </resources>
+
+    <application-desc main-class="org.glassfish.appclient.client.JWSAppClientContainerMain">
+
+        
+
+        <!--
+            Further arguments may be added dynamically.
+        -->
+        
+
+    </application-desc>
+
+</jnlp>
