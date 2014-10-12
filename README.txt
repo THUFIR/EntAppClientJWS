@@ -7,19 +7,19 @@ EntAppClientJWS
 the Enterprise Application and EJB module:
 
 EntAppEJB
-https://netbeans.org/kb/docs/javaee/entappclient.html
+https://github.com/THUFIR/EntAppEJB
 
 
 the CLI appclient:
 
 EntAppClient
-https://netbeans.org/kb/docs/javaee/entappclient.html
+https://github.com/THUFIR/EntAppClient
 
 
 the remote interface library:
 
 EJBRemoteInterface
-https://netbeans.org/kb/docs/javaee/entappclient.html
+https://github.com/THUFIR/EJBRemoteInterface
 
 
 the CORBA lookup:
