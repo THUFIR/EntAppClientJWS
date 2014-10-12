@@ -6,7 +6,7 @@ This documents general attempts to build upon the tutorial at:
 
 https://netbeans.org/kb/docs/javaee/entappclient.html
 
-to distribute the resulting application.
+and to distribute the resulting application, either through CORBA or the Glassfish appclient script.
 
 
 
