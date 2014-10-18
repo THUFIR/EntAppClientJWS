@@ -33,3 +33,10 @@ the CORBA lookup:
 
 EntAppLookup
 https://github.com/THUFIR/EntAppLookup
+
+
+also, a related project:
+
+https://github.com/THUFIR/EntAppWeb
+
+http://localhost:8080/EntAppWeb-war/
